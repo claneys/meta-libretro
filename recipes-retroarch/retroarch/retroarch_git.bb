@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/GPL-3.0;md5=c79ff39f19dfec6d293
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
-SRC_URI = "git://github.com/libretro/RetroArch.git \
+SRC_URI = "gitsm://github.com/libretro/RetroArch.git \
            file://0001-Fix-compiler_test_at_configure.patch \
 	   file://0001-Fix-initializer_element_is_not_constant.patch \
 	   "
