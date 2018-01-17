@@ -14,6 +14,8 @@ SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
 
+DEPENDS = "alsa-lib mesa"
+
 inherit autotools-brokensep
 
 do_compile() {
